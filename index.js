@@ -86,7 +86,7 @@ async function handleRequest(request) {
   console.log(path);
   if (!path) {
     const html = await fetch(
-      "https://cdn.jsdelivr.net/gh/fhdnhd/Url-Shorten@main/index.html"
+      "https://cdn.jsdelivr.net/gh/fhdnhd/Url-Shorten/index.html"
     );
     /****customized index.html at main branch, easier to edit it****/
 
